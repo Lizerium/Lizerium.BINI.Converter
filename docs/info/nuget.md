@@ -118,7 +118,9 @@ A text file with too many unique strings for the BINI string table can throw `In
 
 Use `Lizerium.BINI.Converter.App` for file conversion, recursive folder conversion, and the local browser overlay.
 
-See [App, CLI, and web overlay](app.md).
+See [App, CLI, and web overlay](https://github.com/Lizerium/Lizerium.BINI.Converter/blob/main/docs/info/app.md).
+
+Example Web-portal - https://lizerium.github.io/Lizerium.BINI.Converter/
 
 ## Need A Browser-Only Version?
 

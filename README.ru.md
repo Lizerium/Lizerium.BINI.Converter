@@ -47,6 +47,7 @@
 - Содержит консольный tester без внешних test framework зависимостей: binitools fixtures и optional roundtrip по папке Freelancer.
 - Содержит xUnit проект с тестами. (546+ тестов)
   - ![Тесты](media/tests.png)
+- Пример web-портала - https://lizerium.github.io/Lizerium.BINI.Converter/
 
 ## Проекты
 

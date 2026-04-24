@@ -47,6 +47,7 @@
 - Has a no-framework console tester with binitools fixtures and optional Freelancer folder roundtrip checks.
 - Contains an xUnit project with tests. (546+ tests)
   - ![tests](media/tests.png)
+- Example web page - https://lizerium.github.io/Lizerium.BINI.Converter/
 
 ## Projects
 

@@ -118,7 +118,9 @@ Text file со слишком большим количеством unique strin
 
 Используй `Lizerium.BINI.Converter.App` для file conversion, recursive folder conversion и локального browser overlay.
 
-Смотри [App, CLI и web overlay](app.ru.md).
+Смотри [App, CLI и web overlay](https://github.com/Lizerium/Lizerium.BINI.Converter/blob/main/docs/info/app.ru.md).
+
+Пример Web-портала - https://lizerium.github.io/Lizerium.BINI.Converter/
 
 ## Нужна Browser-Only Версия?
 
