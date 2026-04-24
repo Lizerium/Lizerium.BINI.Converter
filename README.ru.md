@@ -15,7 +15,6 @@
 <div align="center">
 
   <img alt="NuGet downloads" src="https://shields.dvurechensky.pro/nuget/dt/Lizerium.BINI.Converter?label=NuGet%20downloads">
-  <img alt="NuGet downloads per month" src="https://shields.dvurechensky.pro/nuget/dm/Lizerium.BINI.Converter?label=downloads%2Fmonth">
 
 </div>
 
