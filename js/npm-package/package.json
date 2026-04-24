@@ -1,6 +1,6 @@
 {
 	"name": "lizerium-bini-converter",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Freelancer BINI converter for JavaScript, browser and Node.js",
 	"license": "MIT",
 	"author": "Nikolay Dvurechensky",
@@ -27,7 +27,10 @@
 		"ini",
 		"converter",
 		"modding",
-		"javascript"
+		"javascript",
+		"lizerium",
+		"dvurechensky",
+		"dvurechenskypro"
 	],
 	"repository": {
 		"type": "git"
