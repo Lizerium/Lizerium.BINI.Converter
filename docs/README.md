@@ -25,10 +25,10 @@ This folder is a static GitHub Pages portal. It contains a browser-only JavaScri
 
 Open `index.html` directly in a browser, or serve the folder with any static server.
 
-For GitHub Pages, publish the repository with `docs` as the Pages root. The portal will be available under:
+For GitHub Pages, publish the repository with `docs` as the Pages root. The portal will be available at the Pages root:
 
 ```text
-/portal/
+/
 ```
 
 ## JavaScript API

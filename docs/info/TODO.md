@@ -68,7 +68,7 @@ This file collects practical next steps for `Lizerium.BINI.Converter`. The goal 
 
 ## GitHub Pages Portal
 
-- Keep a static portal under `docs/portal`.
+- Keep a static portal under `docs`.
 - Continue the JavaScript BINI implementation until it reaches feature parity with the .NET library.
 - Add browser-only regression fixtures for:
   - CP1251 Cyrillic;
@@ -122,4 +122,3 @@ This file collects practical next steps for `Lizerium.BINI.Converter`. The goal 
   - comments are discarded by BINI;
   - formatting is canonicalized after BINI roundtrip.
 - Add changelog and release notes template.
-

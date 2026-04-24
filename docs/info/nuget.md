@@ -122,4 +122,4 @@ See [App, CLI, and web overlay](app.md).
 
 ## Need A Browser-Only Version?
 
-The repository also contains a static JavaScript portal in `docs/portal`. It exposes `window.LizeriumBini` and can run from GitHub Pages without a backend.
+The repository also contains a static JavaScript portal in `docs`. It exposes `window.LizeriumBini` and can run from GitHub Pages without a backend.

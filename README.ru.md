@@ -46,6 +46,7 @@
 - Включает статический GitHub Pages portal с browser JavaScript BINI converter.
 - Содержит консольный tester без внешних test framework зависимостей: binitools fixtures и optional roundtrip по папке Freelancer.
 - Содержит xUnit проект с тестами. (546+ тестов)
+  - ![Тесты](media/tests.png)
 
 ## Проекты
 
@@ -58,11 +59,11 @@
 
 Все инструкции лежат в `docs`:
 
-- [Использование NuGet-пакета](docs/nuget.ru.md)
-- [App, CLI и web overlay](docs/app.ru.md)
-- [Сборка и проверка](docs/build.ru.md)
-- [Roadmap](docs/TODO.md)
-- [Статический portal](docs/portal/README.ru.md)
+- [Использование NuGet-пакета](docs/info/nuget.ru.md)
+- [App, CLI и web overlay](docs/info/app.ru.md)
+- [Сборка и проверка](docs/info/build.ru.md)
+- [Roadmap](docs/info/TODO.md)
+- [Статический portal](docs/README.ru.md)
 
 ## Быстрый Пример
 

@@ -100,10 +100,10 @@ dotnet run --project app/Lizerium.BINI.Converter.App -- --web --urls http://loca
 Также есть полностью статический portal:
 
 ```text
-docs/portal
+docs
 ```
 
-Внутри лежит browser JavaScript port BINI converter. Для него не нужен ASP.NET app или backend. При публикации GitHub Pages укажи `docs` как Pages root и открой `/portal/`.
+Внутри лежит browser JavaScript port BINI converter. Для него не нужен ASP.NET app или backend. При публикации GitHub Pages укажи `docs` как Pages root.
 
 ## Файлы Web Frontend
 

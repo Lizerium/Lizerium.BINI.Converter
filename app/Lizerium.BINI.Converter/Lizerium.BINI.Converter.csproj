@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\docs\nuget.md">
+    <None Include="..\..\docs\info\nuget.md">
       <Pack>true</Pack>
       <PackagePath>\</PackagePath>
     </None>

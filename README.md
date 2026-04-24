@@ -46,6 +46,7 @@
 - Includes a static GitHub Pages portal with a browser JavaScript BINI converter.
 - Has a no-framework console tester with binitools fixtures and optional Freelancer folder roundtrip checks.
 - Contains an xUnit project with tests. (546+ tests)
+  - ![tests](media/tests.png)
 
 ## Projects
 
@@ -58,11 +59,11 @@
 
 All usage instructions live in `docs`:
 
-- [NuGet package usage](docs/nuget.md)
-- [App, CLI, and web overlay](docs/app.md)
-- [Build and verification](docs/build.md)
-- [Roadmap](docs/TODO.md)
-- [Static portal](docs/portal/README.md)
+- [NuGet package usage](docs/info/nuget.md)
+- [App, CLI, and web overlay](docs/info/app.md)
+- [Build and verification](docs/info/build.md)
+- [Roadmap](docs/info/TODO.md)
+- [Static portal](docs/README.md)
 
 ## Quick Taste
 

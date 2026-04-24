@@ -122,4 +122,4 @@ Text file со слишком большим количеством unique strin
 
 ## Нужна Browser-Only Версия?
 
-В репозитории также есть статический JavaScript portal в `docs/portal`. Он exposes `window.LizeriumBini` и может работать на GitHub Pages без backend.
+В репозитории также есть статический JavaScript portal в `docs`. Он exposes `window.LizeriumBini` и может работать на GitHub Pages без backend.
