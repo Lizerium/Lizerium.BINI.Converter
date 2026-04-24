@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Lizerium.BINI.Converter</PackageId>
+    <Version>1.0.0</Version>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <Title>Lizerium BINI Converter</Title>
+    <Description>C# implementation for converting Freelancer BINI binary INI files into editable text INI files and back.</Description>
+
+    <Authors>Lizerium and Dvurechensky</Authors>
+    <Copyright>Copyright (c) Nikolay Dvurechensky</Copyright>
+
+    <PackageProjectUrl>https://github.com/Lizerium/Lizerium.BINI.Converter</PackageProjectUrl>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Lizerium/Lizerium.BINI.Converter</RepositoryUrl>
+
+    <PackageTags>Freelancer;BINI;INI;Converter;Modding;Lizerium;Dvurechensky</PackageTags>
+    <PackageIcon>LOGO_400x400.png</PackageIcon>
+    <PackageReadmeFile>nuget.md</PackageReadmeFile>
+
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>obj\Generated</CompilerGeneratedFilesOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\docs\nuget.md">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+
+    <None Include="..\..\media\LOGO_400x400.png">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

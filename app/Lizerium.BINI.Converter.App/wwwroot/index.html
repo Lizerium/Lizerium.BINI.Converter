@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lizerium BINI Converter</title>
+  <link rel="stylesheet" href="/css/app.css">
+  <script src="/js/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Lizerium BINI Converter</h1>
+    <div class="header-actions">
+      <span data-i18n="app.subtitle">local web overlay</span>
+      <select id="language" class="language-select" aria-label="Language">
+        <option value="en">English</option>
+        <option value="ru">Русский</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <label class="dropzone" id="dropzone">
+        <input id="file" type="file" hidden>
+        <span>
+          <strong data-i18n="drop.title">Drop .ini here</strong>
+          <span data-i18n="drop.subtitle">or click to choose a file</span>
+        </span>
+      </label>
+      <div class="controls">
+        <select id="mode" aria-label="Conversion mode">
+          <option value="auto" data-i18n="mode.auto">Auto</option>
+          <option value="to-text" data-i18n="mode.toText">BINI -> INI text</option>
+          <option value="to-bini" data-i18n="mode.toBini">INI text -> BINI</option>
+        </select>
+        <select id="encoding" aria-label="Text encoding">
+          <option value="cp1251" data-i18n="encoding.cp1251">Windows-1251</option>
+          <option value="latin1" data-i18n="encoding.latin1">Latin-1</option>
+          <option value="utf8" data-i18n="encoding.utf8">UTF-8</option>
+        </select>
+        <button id="convert" disabled data-i18n="actions.convert">Convert</button>
+        <button id="download" disabled data-i18n="actions.download">Download</button>
+      </div>
+      <div class="status" id="status" data-i18n="status.noFile">No file selected.</div>
+    </section>
+    <section class="preview">
+      <div class="previewbar">
+        <span id="resultName" data-i18n="preview.title">Preview</span>
+      </div>
+      <pre id="preview" data-i18n="preview.empty">If the result is a text INI, it will appear here.</pre>
+    </section>
+  </main>
+</body>
+</html>

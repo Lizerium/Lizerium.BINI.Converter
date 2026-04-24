@@ -1,0 +1,21 @@
+{
+  "app.subtitle": "local web overlay",
+  "drop.title": "Drop .ini here",
+  "drop.subtitle": "or click to choose a file",
+  "mode.auto": "Auto",
+  "mode.toText": "BINI -> INI text",
+  "mode.toBini": "INI text -> BINI",
+  "encoding.cp1251": "Windows-1251",
+  "encoding.latin1": "Latin-1",
+  "encoding.utf8": "UTF-8",
+  "actions.convert": "Convert",
+  "actions.download": "Download",
+  "status.noFile": "No file selected.",
+  "status.selected": "{fileName} selected.",
+  "status.converting": "Converting...",
+  "status.done": "{direction}: done.",
+  "preview.title": "Preview",
+  "preview.empty": "If the result is a text INI, it will appear here.",
+  "preview.binary": "BINI output is binary. Use Download to save it.",
+  "errors.conversionFailed": "Conversion failed."
+}

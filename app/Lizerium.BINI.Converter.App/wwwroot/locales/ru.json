@@ -1,0 +1,21 @@
+{
+  "app.subtitle": "локальный веб-оверлей",
+  "drop.title": "Перетащи .ini сюда",
+  "drop.subtitle": "или нажми, чтобы выбрать файл",
+  "mode.auto": "Авто",
+  "mode.toText": "BINI -> текстовый INI",
+  "mode.toBini": "Текстовый INI -> BINI",
+  "encoding.cp1251": "Windows-1251",
+  "encoding.latin1": "Latin-1",
+  "encoding.utf8": "UTF-8",
+  "actions.convert": "Конвертировать",
+  "actions.download": "Скачать",
+  "status.noFile": "Файл пока не выбран.",
+  "status.selected": "{fileName} выбран.",
+  "status.converting": "Конвертация...",
+  "status.done": "{direction}: готово.",
+  "preview.title": "Предпросмотр",
+  "preview.empty": "Если результат будет текстовым INI, он появится здесь.",
+  "preview.binary": "Результат BINI является бинарным. Используй скачивание, чтобы сохранить его.",
+  "errors.conversionFailed": "Конвертация не удалась."
+}
