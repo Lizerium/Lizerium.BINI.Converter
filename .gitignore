@@ -227,3 +227,13 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+
+# =========================
+# npm package artifacts
+# =========================
+js/npm-package/node_modules/
+js/npm-package/.npm-cache/
+js/npm-package/coverage/
+js/npm-package/*.log
+js/npm-package/*.tgz
+js/npm-package/.rollup.cache/

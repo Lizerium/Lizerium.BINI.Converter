@@ -1,4 +1,5 @@
 <h1 align="center">Lizerium.BINI.Converter</h1>
+<p align="center"><b>.NET</b> • <b>Nuget</b> • <b>Browser</b> • <b>npm</b> • <b>CLI</b></p>
 
 <div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
   <strong>🌐 Язык: </strong>
@@ -14,7 +15,10 @@
 
 <div align="center">
 
+ <img alt="NuGet version" src="https://shields.dvurechensky.pro/nuget/v/Lizerium.BINI.Converter?label=NuGet%20version">
   <img alt="NuGet downloads" src="https://shields.dvurechensky.pro/nuget/dt/Lizerium.BINI.Converter?label=NuGet%20downloads">
+  <img alt="npm version" src="https://img.shields.io/npm/v/lizerium-bini-converter">
+  <img alt="npm downloads" src="https://img.shields.io/npm/dm/lizerium-bini-converter">
 
 </div>
 
@@ -29,7 +33,7 @@
 
 ---
 
-`Lizerium.BINI.Converter` - .NET 8 toolkit для файлов Freelancer BINI: распаковывает бинарный BINI в редактируемый текстовый INI и собирает текстовый INI обратно в игровой формат.
+`Lizerium.BINI.Converter` - кросс-платформенный инструмент для файлов Freelancer BINI: `.NET 8`, `Browser`, `npm`, `CLI` - распаковывает бинарный BINI в редактируемый текстовый INI и собирает текстовый INI обратно в игровой формат.
 
 ## Что Умеет
 
@@ -47,6 +51,16 @@
 - Содержит xUnit проект с тестами. (546+ тестов)
   - ![Тесты](media/tests.png)
 - Пример web-портала - https://lizerium.github.io/Lizerium.BINI.Converter/
+- Опубликован NPM пакет для JavaScript / Node.js:
+  - https://www.npmjs.com/package/lizerium-bini-converter
+- Опубликован Nuget пакет для `.NET`:
+  - https://www.nuget.org/packages/Lizerium.BINI.Converter
+
+## Пакеты
+
+- NuGet (.NET): [Lizerium.BINI.Converter](https://www.nuget.org/packages/Lizerium.BINI.Converter)
+- npm (JavaScript): [lizerium-bini-converter](https://www.npmjs.com/package/lizerium-bini-converter)
+- Browser Portal: [GitHub Pages](https://lizerium.github.io/Lizerium.BINI.Converter/)
 
 ## Проекты
 

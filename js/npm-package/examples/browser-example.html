@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lizerium BINI Browser Example</title>
+  <script src="../dist/index.umd.js"></script>
+</head>
+<body>
+  <input id="file" type="file">
+  <pre id="output"></pre>
+
+  <script>
+    const fileInput = document.getElementById('file');
+    const output = document.getElementById('output');
+
+    fileInput.addEventListener('change', async () => {
+      const file = fileInput.files[0];
+      if (!file) {
+        return;
+      }
+
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      output.textContent = LizeriumBini.isBini(bytes)
+        ? LizeriumBini.convertBiniToText(bytes)
+        : 'Selected file is not BINI.';
+    });
+  </script>
+</body>
+</html>
