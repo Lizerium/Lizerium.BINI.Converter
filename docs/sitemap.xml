@@ -1,63 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-	<url>
-		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
-		<image:image>
-			<image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
-			<image:caption>Lizerium BINI Converter browser demo for Freelancer (2003) BINI to INI conversion.</image:caption>
-			<image:title>BINI to INI conversion demo</image:title>
-		</image:image>
-		<lastmod>2026-05-01</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
-		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
-		<image:image>
-			<image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
-			<image:caption>Демонстрация конвертации BINI файлов Freelancer (2003) в INI в браузере.</image:caption>
-			<image:title>Демонстрация конвертера BINI в INI</image:title>
-		</image:image>
-		<lastmod>2026-05-01</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
-		<lastmod>2026-05-01</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html</loc>
-		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
-		<lastmod>2026-05-01</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
-	</url>
-	<url>
-		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
-		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
-		<lastmod>2026-05-01</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
-		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
-		<lastmod>2026-05-01</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.7</priority>
-	</url>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://lizerium.github.io/Lizerium.BINI.Converter/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/"
+    />
+    <image:image>
+      <image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
+      <image:caption>Lizerium BINI Converter browser demo for Freelancer (2003) BINI to INI conversion.</image:caption>
+      <image:title>BINI to INI conversion demo</image:title>
+    </image:image>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/"
+    />
+    <image:image>
+      <image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
+      <image:caption>Демонстрация конвертации BINI файлов Freelancer (2003) в INI в браузере.</image:caption>
+      <image:title>Демонстрация конвертера BINI в INI</image:title>
+    </image:image>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html"
+    />
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html"
+    />
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html"
+    />
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html"
+    />
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
