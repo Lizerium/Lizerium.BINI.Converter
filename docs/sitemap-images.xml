@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/</loc>
+		<image:image>
+			<image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
+			<image:caption>Lizerium BINI Converter browser demo for Freelancer (2003) BINI to INI conversion.</image:caption>
+			<image:title>BINI to INI conversion demo</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/</loc>
+		<image:image>
+			<image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
+			<image:caption>Demo of Freelancer (2003) BINI to INI conversion in the browser.</image:caption>
+			<image:title>BINI to INI converter demo</image:title>
+		</image:image>
+	</url>
+</urlset>
