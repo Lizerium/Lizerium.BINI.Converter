@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	<url>
 		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/</loc>
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
 		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
 		<xhtml:link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<image:image>
+			<image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
+			<image:caption>Lizerium BINI Converter browser demo for Freelancer BINI to INI conversion.</image:caption>
+			<image:title>BINI to INI conversion demo</image:title>
+		</image:image>
 		<lastmod>2026-05-01</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
@@ -14,6 +19,11 @@
 		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
 		<xhtml:link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<image:image>
+			<image:loc>https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif</image:loc>
+			<image:caption>Демонстрация конвертации Freelancer BINI в INI в браузере.</image:caption>
+			<image:title>Демонстрация конвертера BINI в INI</image:title>
+		</image:image>
 		<lastmod>2026-05-01</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>

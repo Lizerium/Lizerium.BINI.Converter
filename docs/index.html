@@ -18,12 +18,15 @@
 		<link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
 		<link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
 		<link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<link rel="author" href="https://dvurechensky.pro/" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="BINI to INI Converter for Freelancer" />
 		<meta
 			property="og:description"
 			content="Browser converter for Freelancer BINI and INI files. Drag a file, convert locally, download the result."
 		/>
+		<meta property="og:image" content="https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif" />
+		<meta property="og:image:alt" content="Lizerium BINI Converter demo: Freelancer BINI to INI conversion in the browser" />
 		<meta property="og:url" content="https://lizerium.github.io/Lizerium.BINI.Converter/" />
 		<meta property="og:site_name" content="Lizerium BINI Converter" />
 		<meta name="twitter:card" content="summary" />
@@ -32,17 +35,77 @@
 		<script type="application/ld+json" id="structuredData">
 			{
 				"@context": "https://schema.org",
-				"@type": "SoftwareApplication",
-				"name": "Lizerium BINI Converter",
-				"applicationCategory": "DeveloperApplication",
-				"operatingSystem": "Web browser",
-				"url": "https://lizerium.github.io/Lizerium.BINI.Converter/",
-				"description": "Convert Freelancer BINI files to editable INI text and pack INI text back to BINI locally in the browser.",
-				"offers": {
-					"@type": "Offer",
-					"price": "0",
-					"priceCurrency": "USD"
-				}
+				"@graph": [
+					{
+						"@type": "Person",
+						"@id": "https://dvurechensky.pro/#person",
+						"name": "Dvurechensky Pro",
+						"alternateName": ["Dvurechensky", "Lizerium"],
+						"url": "https://dvurechensky.pro/",
+						"sameAs": [
+							"https://github.com/Dvurechensky",
+							"https://github.com/Lizerium",
+							"https://www.linkedin.com/in/dvurechensky-pro/",
+							"https://www.youtube.com/@lizerium_game",
+							"https://vk.com/lizerium_game"
+						]
+					},
+					{
+						"@type": "Organization",
+						"@id": "https://lizup.ru/#organization",
+						"name": "Lizerium",
+						"url": "https://lizup.ru/",
+						"logo": "https://lizerium.github.io/Lizerium.BINI.Converter/favicon.ico",
+						"founder": { "@id": "https://dvurechensky.pro/#person" },
+						"sameAs": [
+							"https://github.com/Lizerium",
+							"https://dvurechensky.pro/",
+							"https://www.youtube.com/@lizerium_game",
+							"https://vk.com/lizerium_game",
+							"https://rutube.ru/channel/44085490/"
+						]
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://lizerium.github.io/Lizerium.BINI.Converter/#website",
+						"name": "Lizerium BINI Converter",
+						"url": "https://lizerium.github.io/Lizerium.BINI.Converter/",
+						"inLanguage": "en",
+						"publisher": { "@id": "https://lizup.ru/#organization" }
+					},
+					{
+						"@type": "SoftwareApplication",
+						"@id": "https://lizerium.github.io/Lizerium.BINI.Converter/#software",
+						"name": "Lizerium BINI Converter",
+						"applicationCategory": "DeveloperApplication",
+						"operatingSystem": "Web browser",
+						"url": "https://lizerium.github.io/Lizerium.BINI.Converter/",
+						"description": "Convert Freelancer BINI files to editable INI text and pack INI text back to BINI locally in the browser.",
+						"isAccessibleForFree": true,
+						"creator": { "@id": "https://dvurechensky.pro/#person" },
+						"publisher": { "@id": "https://lizup.ru/#organization" },
+						"sameAs": [
+							"https://github.com/Lizerium/Lizerium.BINI.Converter",
+							"https://www.npmjs.com/package/lizerium-bini-converter",
+							"https://www.nuget.org/packages/Lizerium.BINI.Converter"
+						],
+						"offers": {
+							"@type": "Offer",
+							"price": "0",
+							"priceCurrency": "USD"
+						}
+					},
+					{
+						"@type": "ImageObject",
+						"@id": "https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif#image",
+						"url": "https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif",
+						"contentUrl": "https://lizerium.github.io/Lizerium.BINI.Converter/media/bini_source.gif",
+						"caption": "Lizerium BINI Converter browser demo for Freelancer BINI to INI conversion.",
+						"width": 1280,
+						"height": 720,
+						"representativeOfPage": true
+					}
+				]
 			}
 		</script>
 		<script src="./js/bini-converter.js" defer></script>
@@ -97,6 +160,27 @@
 						<strong>Windows-1251</strong>
 					</div>
 				</div>
+			</section>
+
+			<section class="demo-band" aria-labelledby="demoTitle">
+				<div class="demo-copy">
+					<p class="eyebrow" data-i18n="demo.eyebrow">Live workflow</p>
+					<h2 id="demoTitle" data-i18n="demo.title">See the BINI conversion flow</h2>
+					<p data-i18n="demo.text">
+						The demo shows how a Freelancer BINI file becomes readable INI text in the browser, ready for inspection, editing, and repacking.
+					</p>
+				</div>
+				<figure class="demo-media">
+					<img
+						src="./media/bini_source.gif"
+						alt="Demo of Lizerium BINI Converter converting a Freelancer BINI file to readable INI text"
+						width="1280"
+						height="720"
+						loading="lazy"
+						decoding="async"
+					/>
+					<figcaption data-i18n="demo.caption">Browser-only BINI to INI conversion demo.</figcaption>
+				</figure>
 			</section>
 
 			<section class="workspace" id="converter" aria-label="BINI converter">
@@ -218,6 +302,8 @@
 			<a href="https://www.npmjs.com/package/lizerium-bini-converter" rel="noopener">npm</a>
 			<a href="https://www.nuget.org/packages/Lizerium.BINI.Converter" rel="noopener">NuGet</a>
 			<a href="https://github.com/Lizerium/Lizerium.BINI.Converter" rel="noopener">GitHub</a>
+			<a href="https://dvurechensky.pro/" rel="author noopener">Dvurechensky</a>
+			<a href="https://lizup.ru/" rel="noopener">Lizerium Portal</a>
 		</footer>
 
 		<script>
