@@ -136,6 +136,10 @@
     languageSelect.addEventListener('change', () => {
       currentLanguage = languageSelect.value;
       localStorage.setItem(storageKey, currentLanguage);
+      if (navigateToLanguagePage(currentLanguage)) {
+        return;
+      }
+
       applyLanguage();
     });
 
@@ -162,12 +166,32 @@
       return queryLanguage;
     }
 
+    const pageLanguage = document.documentElement.dataset.defaultLanguage;
+    if (pageLanguage === 'en' || pageLanguage === 'ru') {
+      return pageLanguage;
+    }
+
     const saved = localStorage.getItem(storageKey);
     if (saved === 'en' || saved === 'ru') {
       return saved;
     }
 
     return navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : 'en';
+  }
+
+  function navigateToLanguagePage(language) {
+    const currentPageLanguage = document.documentElement.dataset.defaultLanguage || 'en';
+    if (language === currentPageLanguage) {
+      return false;
+    }
+
+    const alternate = document.querySelector(`link[rel="alternate"][hreflang="${language}"]`);
+    if (!alternate?.href) {
+      return false;
+    }
+
+    location.href = alternate.href;
+    return true;
   }
 
   function applyLanguage() {

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ru" data-default-language="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Конвертер BINI в INI для Freelancer | Lizerium</title>
+		<meta
+			name="description"
+			content="Конвертируйте Freelancer BINI в редактируемый INI и собирайте INI обратно в BINI прямо в браузере. Без загрузки файлов на сервер, с поддержкой Windows-1251."
+		/>
+		<meta
+			name="keywords"
+			content="конвертер BINI, BINI в INI, Freelancer BINI, моддинг Freelancer, INI в BINI, Lizerium BINI Converter"
+		/>
+		<meta name="robots" content="index, follow, max-image-preview:large" />
+		<meta name="theme-color" content="#14181d" />
+		<link rel="canonical" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
+		<link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
+		<link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Конвертер BINI в INI для Freelancer" />
+		<meta
+			property="og:description"
+			content="Браузерный конвертер Freelancer BINI и INI. Перетащите файл, конвертируйте локально и скачайте результат."
+		/>
+		<meta property="og:url" content="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
+		<meta property="og:site_name" content="Lizerium BINI Converter" />
+		<meta name="twitter:card" content="summary" />
+		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="../css/app.css" />
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "SoftwareApplication",
+				"name": "Lizerium BINI Converter",
+				"applicationCategory": "DeveloperApplication",
+				"operatingSystem": "Web browser",
+				"url": "https://lizerium.github.io/Lizerium.BINI.Converter/ru/",
+				"description": "Конвертер Freelancer BINI в редактируемый INI и обратно. Работает локально в браузере.",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "USD"
+				}
+			}
+		</script>
+		<script src="../js/bini-converter.js" defer></script>
+		<script src="../js/app.js" defer></script>
+	</head>
+	<body>
+		<header class="site-header">
+			<a class="brand" href="./" aria-label="Lizerium BINI Converter">
+				<img class="brand-mark" src="../favicon.ico" alt="" width="42" height="42" />
+				<span>
+					<strong>Lizerium BINI Converter</strong>
+					<small data-i18n="nav.subtitle">Инструмент для моддинга Freelancer</small>
+				</span>
+			</a>
+			<nav class="header-tools" aria-label="Навигация">
+				<a href="#converter" data-i18n="nav.converter">Конвертер</a>
+				<a href="#guide" data-i18n="nav.guide">Гайд</a>
+				<a href="https://github.com/Lizerium/Lizerium.BINI.Converter" rel="noopener">GitHub</a>
+				<select id="language" aria-label="Язык">
+					<option value="en">English</option>
+					<option value="ru">Русский</option>
+				</select>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero" aria-labelledby="pageTitle">
+				<div class="hero-copy">
+					<p class="eyebrow" data-i18n="hero.eyebrow">Бесплатный инструмент в браузере</p>
+					<h1 id="pageTitle" data-i18n="hero.title">Конвертер Freelancer BINI в редактируемый INI</h1>
+					<p data-i18n="hero.lead">
+						Открывайте бинарные конфиги Freelancer, переводите их в читаемый INI, редактируйте текст и собирайте обратно в BINI без отправки файлов на сервер.
+					</p>
+					<div class="hero-actions">
+						<a class="button primary" href="#converter" data-i18n="hero.cta">Конвертировать файл</a>
+						<a class="button ghost" href="#seo-pages" data-i18n="hero.pages">Гайды</a>
+					</div>
+				</div>
+				<div class="hero-panel" aria-label="Возможности">
+					<div>
+						<span data-i18n="hero.card1.k">Форматы</span>
+						<strong>BINI -> INI -> BINI</strong>
+					</div>
+					<div>
+						<span data-i18n="hero.card2.k">Приватность</span>
+						<strong data-i18n="hero.card2.v">100% локально</strong>
+					</div>
+					<div>
+						<span data-i18n="hero.card3.k">Кодировка</span>
+						<strong>Windows-1251</strong>
+					</div>
+				</div>
+			</section>
+
+			<section class="workspace" id="converter" aria-label="BINI converter">
+				<section class="tool">
+					<label class="dropzone" id="dropzone">
+						<input id="file" type="file" hidden />
+						<span>
+							<strong data-i18n="drop.title">Перетащите .ini файл Freelancer сюда</strong>
+							<span data-i18n="drop.subtitle">или нажмите, чтобы выбрать BINI или текстовый INI</span>
+						</span>
+					</label>
+
+					<div class="controls">
+						<label>
+							<span data-i18n="controls.mode">Режим</span>
+							<select id="mode" aria-label="Режим конвертации">
+								<option value="auto" data-i18n="mode.auto">Автоопределение</option>
+								<option value="to-text" data-i18n="mode.toText">BINI в текстовый INI</option>
+								<option value="to-bini" data-i18n="mode.toBini">Текстовый INI в BINI</option>
+							</select>
+						</label>
+						<label>
+							<span data-i18n="controls.encoding">Кодировка</span>
+							<select id="encoding" aria-label="Кодировка текста">
+								<option value="cp1251">Windows-1251</option>
+								<option value="latin1">Latin-1</option>
+								<option value="utf8">UTF-8</option>
+							</select>
+						</label>
+						<div class="button-row">
+							<button id="convert" disabled data-i18n="actions.convert">Конвертировать</button>
+							<button id="download" disabled data-i18n="actions.download">Скачать</button>
+						</div>
+					</div>
+
+					<div class="status" id="status" data-i18n="status.noFile">Файл пока не выбран.</div>
+				</section>
+
+				<section class="preview">
+					<div class="previewbar">
+						<span id="resultName" data-i18n="preview.title">Предпросмотр</span>
+					</div>
+					<pre id="preview" data-i18n="preview.empty">Текстовый результат появится здесь.</pre>
+				</section>
+			</section>
+
+			<section class="content-band" id="guide">
+				<div class="section-heading">
+					<p class="eyebrow" data-i18n="guide.eyebrow">Гайд по Freelancer BINI</p>
+					<h2 data-i18n="guide.title">Как открыть и конвертировать BINI файлы</h2>
+				</div>
+				<div class="info-grid">
+					<article>
+						<h3 data-i18n="guide.open.title">Как открыть BINI файлы в Freelancer</h3>
+						<p data-i18n="guide.open.text">
+							BINI - бинарные конфигурационные файлы Freelancer. Перед редактированием данных кораблей, рынков, оборудования или вселенной их удобно перевести в текстовый INI.
+						</p>
+					</article>
+					<article>
+						<h3 data-i18n="guide.convert.title">Конвертер BINI в INI</h3>
+						<p data-i18n="guide.convert.text">
+							Перетащите файл в конвертер, оставьте автоопределение и скачайте читаемый текстовый результат. Конвертация выполняется в браузере.
+						</p>
+					</article>
+					<article>
+						<h3 data-i18n="guide.reverse.title">Сборка INI в BINI</h3>
+						<p data-i18n="guide.reverse.text">
+							После редактирования INI выберите режим «Текстовый INI в BINI» и сохраните бинарный файл для существующих инструментов Freelancer.
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="content-band alt">
+				<div class="section-heading">
+					<p class="eyebrow" data-i18n="errors.eyebrow">Проблемы и решения</p>
+					<h2 data-i18n="errors.title">Частые ошибки при открытии BINI файлов</h2>
+				</div>
+				<div class="info-grid compact">
+					<article>
+						<h3 data-i18n="errors.read.title">Файл не читается</h3>
+						<p data-i18n="errors.read.text">Проверьте, что это Freelancer BINI или обычный INI, а файл не был обрезан при скачивании или распаковке.</p>
+					</article>
+					<article>
+						<h3 data-i18n="errors.encoding.title">Проблемы с кодировкой</h3>
+						<p data-i18n="errors.encoding.text">Для русских файлов Freelancer чаще всего нужна Windows-1251. Latin-1 или UTF-8 стоит пробовать, если текст выглядит битым.</p>
+					</article>
+					<article>
+						<h3 data-i18n="errors.corrupt.title">Поврежденные данные</h3>
+						<p data-i18n="errors.corrupt.text">Некорректный заголовок BINI, отсутствующая таблица строк или неподдерживаемые значения могут остановить конвертацию.</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="content-band" id="seo-pages">
+				<div class="section-heading">
+					<p class="eyebrow" data-i18n="pages.eyebrow">Еще гайды</p>
+					<h2 data-i18n="pages.title">Темы по Freelancer BINI</h2>
+				</div>
+				<div class="link-grid">
+					<a href="../bini-to-ini-converter.html">
+						<strong>BINI to INI converter</strong>
+						<span data-i18n="pages.biniToIni">Конвертация бинарных Freelancer BINI в читаемый INI.</span>
+					</a>
+					<a href="./freelancer-bini-faily.html">
+						<strong data-i18n="pages.freelancer.title">BINI файлы Freelancer</strong>
+						<span data-i18n="pages.freelancer.text">Что такое BINI файлы и как с ними работают моддеры.</span>
+					</a>
+					<a href="./bini-v-ini-konverter.html">
+						<strong>Конвертер BINI в INI</strong>
+						<span>Русская страница для поиска по Freelancer BINI и INI.</span>
+					</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<span data-i18n="footer.local">Файлы обрабатываются локально в вашем браузере.</span>
+			<a href="https://www.npmjs.com/package/lizerium-bini-converter" rel="noopener">npm</a>
+			<a href="https://www.nuget.org/packages/Lizerium.BINI.Converter" rel="noopener">NuGet</a>
+			<a href="https://github.com/Lizerium/Lizerium.BINI.Converter" rel="noopener">GitHub</a>
+		</footer>
+	</body>
+</html>

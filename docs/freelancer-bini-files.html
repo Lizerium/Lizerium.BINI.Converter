@@ -14,17 +14,27 @@
 		<link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
 		<link rel="stylesheet" href="./css/app.css" />
 		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+		<script src="./js/language-pages.js" defer></script>
 	</head>
 	<body>
 		<header class="site-header">
 			<a class="brand" href="./">
-				<span class="brand-mark">LB</span>
+				<img class="brand-mark" src="./favicon.ico" alt="" width="42" height="42" />
 				<span><strong>Lizerium BINI Converter</strong><small>Freelancer modding tool</small></span>
 			</a>
 			<nav class="header-tools" aria-label="Primary navigation">
 				<a href="./#converter">Converter</a>
 				<a href="./bini-to-ini-converter.html">BINI to INI</a>
-				<a href="./ru/freelancer-bini-faily.html" hreflang="ru">Русский</a>
+				<select
+					data-language-switcher
+					data-current-language="en"
+					data-language-en-url="./freelancer-bini-files.html"
+					data-language-ru-url="./ru/freelancer-bini-faily.html"
+					aria-label="Language"
+				>
+					<option value="en">English</option>
+					<option value="ru">Русский</option>
+				</select>
 			</nav>
 		</header>
 		<main>

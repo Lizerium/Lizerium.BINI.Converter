@@ -52,14 +52,12 @@ a:hover {
 }
 
 .brand-mark {
-	display: grid;
 	width: 42px;
 	height: 42px;
-	place-items: center;
 	border-radius: 8px;
-	background: linear-gradient(135deg, #22d3ee, #34d399);
-	color: #07111f;
-	font-weight: 900;
+	background: #101418;
+	box-shadow: 0 0 0 1px rgba(148, 163, 184, .24);
+	object-fit: contain;
 }
 
 .brand strong,

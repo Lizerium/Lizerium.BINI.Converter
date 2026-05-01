@@ -3,7 +3,18 @@
 	<url>
 		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/</loc>
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
-		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/?lang=ru" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<lastmod>2026-05-01</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/</loc>
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<lastmod>2026-05-01</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -11,6 +22,7 @@
 		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html</loc>
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
+		<lastmod>2026-05-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
@@ -18,6 +30,7 @@
 		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html</loc>
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
+		<lastmod>2026-05-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
@@ -25,6 +38,7 @@
 		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
+		<lastmod>2026-05-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
@@ -32,6 +46,7 @@
 		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
 		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
+		<lastmod>2026-05-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
