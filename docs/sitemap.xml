@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/?lang=ru" />
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html</loc>
+		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html</loc>
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html</loc>
+		<xhtml:link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+</urlset>

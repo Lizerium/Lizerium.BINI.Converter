@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lizerium.github.io/Lizerium.BINI.Converter/sitemap.xml
