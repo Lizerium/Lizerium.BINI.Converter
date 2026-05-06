@@ -9,9 +9,20 @@
 			content="Use Lizerium BINI Converter to convert Freelancer (2003) BINI files into editable INI text online. Browser-only conversion with Windows-1251, Latin-1, and UTF-8 support."
 		/>
 		<meta name="robots" content="index, follow, max-image-preview:large" />
-		<link rel="canonical" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
-		<link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html" />
-		<link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html" />
+		<link
+			rel="canonical"
+			href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html"
+		/>
+		<link
+			rel="alternate"
+			hreflang="en"
+			href="https://lizerium.github.io/Lizerium.BINI.Converter/bini-to-ini-converter.html"
+		/>
+		<link
+			rel="alternate"
+			hreflang="ru"
+			href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/bini-v-ini-konverter.html"
+		/>
 		<link rel="author" href="https://dvurechensky.pro/" />
 		<link rel="stylesheet" href="./css/app.css" />
 		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -39,8 +50,17 @@
 	<body>
 		<header class="site-header">
 			<a class="brand" href="./">
-				<img class="brand-mark" src="./favicon.ico" alt="" width="42" height="42" />
-				<span><strong>Lizerium BINI Converter</strong><small>Freelancer modding tool</small></span>
+				<img
+					class="brand-mark"
+					src="./favicon.ico"
+					alt=""
+					width="42"
+					height="42"
+				/>
+				<span
+					><strong>Lizerium BINI Converter</strong
+					><small>Freelancer modding tool</small></span
+				>
 			</a>
 			<nav class="header-tools" aria-label="Primary navigation">
 				<a href="./#converter">Converter</a>
@@ -63,11 +83,17 @@
 					<p class="eyebrow">BINI to INI</p>
 					<h1>BINI to INI converter for Freelancer files</h1>
 					<p>
-						Convert binary Freelancer (2003) BINI files into readable INI text in the browser. The file stays on your device, so it is useful for quick inspection, modding, and safe editing.
+						Convert binary Freelancer (2003) BINI files into readable INI text
+						in the browser. The file stays on your device, so it is useful for
+						quick inspection, modding, and safe editing.
 					</p>
 					<div class="hero-actions">
 						<a class="button primary" href="./#converter">Open converter</a>
-						<a class="button ghost" href="https://github.com/Lizerium/Lizerium.BINI.Converter">Source code</a>
+						<a
+							class="button ghost"
+							href="https://github.com/Lizerium/Lizerium.BINI.Converter"
+							>Source code</a
+						>
 					</div>
 				</div>
 				<div class="hero-panel">
@@ -84,23 +110,60 @@
 				<div class="info-grid">
 					<article>
 						<h3>1. Drop a file</h3>
-						<p>Drag a Freelancer (2003) BINI file into the converter or choose it from disk. Auto mode detects the BINI signature.</p>
+						<p>
+							Drag a Freelancer (2003) BINI file into the converter or choose it
+							from disk. Auto mode detects the BINI signature.
+						</p>
 					</article>
 					<article>
 						<h3>2. Choose encoding</h3>
-						<p>Use Windows-1251 for many Russian assets, Latin-1 for classic data sets, or UTF-8 for modern text files.</p>
+						<p>
+							Use Windows-1251 for many Russian assets, Latin-1 for classic data
+							sets, or UTF-8 for modern text files.
+						</p>
 					</article>
 					<article>
 						<h3>3. Download INI</h3>
-						<p>The result is canonical editable INI text that can be inspected, searched, copied, or packed back into BINI.</p>
+						<p>
+							The result is canonical editable INI text that can be inspected,
+							searched, copied, or packed back into BINI.
+						</p>
 					</article>
 				</div>
 			</section>
 		</main>
 		<footer>
-			<span>Related searches: BINI converter, Freelancer BINI editor, open BINI file, BINI to INI.</span>
+			<span
+				>Related searches: BINI converter, Freelancer BINI editor, open BINI
+				file, BINI to INI.</span
+			>
 			<a href="https://dvurechensky.pro/" rel="author noopener">Dvurechensky</a>
 			<a href="https://lizup.ru/" rel="noopener">Lizerium Portal</a>
 		</footer>
+		<script>
+			;(function () {
+				fetch('https://license.dvurechensky.pro/api/v1/log', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({
+						site: location.hostname,
+						path: location.pathname,
+						event_type: 'pageview',
+						referrer: document.referrer || '',
+						utm_source:
+							new URLSearchParams(location.search).get('utm_source') || '',
+						utm_medium:
+							new URLSearchParams(location.search).get('utm_medium') || '',
+						utm_campaign:
+							new URLSearchParams(location.search).get('utm_campaign') || '',
+						title: document.title || '',
+						language: navigator.language || '',
+						viewport: window.innerWidth + 'x' + window.innerHeight,
+					}),
+				}).catch(function () {})
+			})()
+		</script>
 	</body>
 </html>

@@ -3,15 +3,28 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Freelancer (2003) BINI Files: Open, Convert, and Edit INI Data</title>
+		<title>
+			Freelancer (2003) BINI Files: Open, Convert, and Edit INI Data
+		</title>
 		<meta
 			name="description"
 			content="Learn what Freelancer (2003) BINI files are, why they need conversion, and how to convert BINI to INI or INI back to BINI with Lizerium tools."
 		/>
 		<meta name="robots" content="index, follow, max-image-preview:large" />
-		<link rel="canonical" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
-		<link rel="alternate" hreflang="en" href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html" />
-		<link rel="alternate" hreflang="ru" href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html" />
+		<link
+			rel="canonical"
+			href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html"
+		/>
+		<link
+			rel="alternate"
+			hreflang="en"
+			href="https://lizerium.github.io/Lizerium.BINI.Converter/freelancer-bini-files.html"
+		/>
+		<link
+			rel="alternate"
+			hreflang="ru"
+			href="https://lizerium.github.io/Lizerium.BINI.Converter/ru/freelancer-bini-faily.html"
+		/>
 		<link rel="author" href="https://dvurechensky.pro/" />
 		<link rel="stylesheet" href="./css/app.css" />
 		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -39,8 +52,17 @@
 	<body>
 		<header class="site-header">
 			<a class="brand" href="./">
-				<img class="brand-mark" src="./favicon.ico" alt="" width="42" height="42" />
-				<span><strong>Lizerium BINI Converter</strong><small>Freelancer modding tool</small></span>
+				<img
+					class="brand-mark"
+					src="./favicon.ico"
+					alt=""
+					width="42"
+					height="42"
+				/>
+				<span
+					><strong>Lizerium BINI Converter</strong
+					><small>Freelancer modding tool</small></span
+				>
 			</a>
 			<nav class="header-tools" aria-label="Primary navigation">
 				<a href="./#converter">Converter</a>
@@ -63,11 +85,15 @@
 					<p class="eyebrow">Freelancer modding</p>
 					<h1>Freelancer (2003) BINI files explained</h1>
 					<p>
-						Freelancer (2003) uses BINI as a compact binary form of INI configuration data. Modders usually convert BINI to text INI before editing game data and then pack the text back into BINI when needed.
+						Freelancer (2003) uses BINI as a compact binary form of INI
+						configuration data. Modders usually convert BINI to text INI before
+						editing game data and then pack the text back into BINI when needed.
 					</p>
 					<div class="hero-actions">
 						<a class="button primary" href="./#converter">Convert BINI now</a>
-						<a class="button ghost" href="./bini-to-ini-converter.html">Conversion guide</a>
+						<a class="button ghost" href="./bini-to-ini-converter.html"
+							>Conversion guide</a
+						>
 					</div>
 				</div>
 				<div class="hero-panel">
@@ -84,23 +110,60 @@
 				<div class="info-grid">
 					<article>
 						<h3>Can I open BINI in a text editor?</h3>
-						<p>Not directly. BINI is binary, so a text editor will show unreadable data until the file is converted to INI text.</p>
+						<p>
+							Not directly. BINI is binary, so a text editor will show
+							unreadable data until the file is converted to INI text.
+						</p>
 					</article>
 					<article>
 						<h3>Which encoding should I use?</h3>
-						<p>Windows-1251 is often needed for Russian text, while Latin-1 and UTF-8 are available for other file sets.</p>
+						<p>
+							Windows-1251 is often needed for Russian text, while Latin-1 and
+							UTF-8 are available for other file sets.
+						</p>
 					</article>
 					<article>
 						<h3>Does the site upload my mod files?</h3>
-						<p>No. The JavaScript converter runs in the browser and processes the selected file locally.</p>
+						<p>
+							No. The JavaScript converter runs in the browser and processes the
+							selected file locally.
+						</p>
 					</article>
 				</div>
 			</section>
 		</main>
 		<footer>
-			<span>Related searches: Freelancer BINI files, open BINI file, Freelancer INI editor, modding tools.</span>
+			<span
+				>Related searches: Freelancer BINI files, open BINI file, Freelancer INI
+				editor, modding tools.</span
+			>
 			<a href="https://dvurechensky.pro/" rel="author noopener">Dvurechensky</a>
 			<a href="https://lizup.ru/" rel="noopener">Lizerium Portal</a>
 		</footer>
+		<script>
+			;(function () {
+				fetch('https://license.dvurechensky.pro/api/v1/log', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({
+						site: location.hostname,
+						path: location.pathname,
+						event_type: 'pageview',
+						referrer: document.referrer || '',
+						utm_source:
+							new URLSearchParams(location.search).get('utm_source') || '',
+						utm_medium:
+							new URLSearchParams(location.search).get('utm_medium') || '',
+						utm_campaign:
+							new URLSearchParams(location.search).get('utm_campaign') || '',
+						title: document.title || '',
+						language: navigator.language || '',
+						viewport: window.innerWidth + 'x' + window.innerHeight,
+					}),
+				}).catch(function () {})
+			})()
+		</script>
 	</body>
 </html>
