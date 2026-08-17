@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 16 августа 2026 14:24:39
- * Version: 1.0.131
+ * Last Updated: 17 августа 2026 06:52:17
+ * Version: 1.0.132
  */
 
 namespace Lizerium.BINI.Converter.App.Conversion;
